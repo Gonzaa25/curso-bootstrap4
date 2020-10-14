@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Guia de hoteles</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -26,14 +26,14 @@
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link disabled" href="#">Deshabilitado</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opciones</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Buscar</a>
+                <a class="dropdown-item" href="#">Reservar</a>
+                <a class="dropdown-item" href="#">Cancelar</a>
               </div>
             </li>
           </ul>
@@ -55,7 +55,7 @@
           </div>
         </div>
        <div class="container">
-           <div class="row">
+           <div class="d-flex">
               <div class="col-sm-4">
                 <h2>¿Cómo funciona?</h2>
                 <p>Buscá los hoteles más recomendados por los usuarios.</p>
@@ -72,21 +72,67 @@
        </div>
         <div class="container">
           <!-- Example row of columns -->
-          <div class="row">
-            <div class="col-md-4">
-              <h2>Hotel de Buenos Aires</h2>
-              <p>Información sobre el hotel. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver más »</a></p>
+          <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Buenos Aires</h2>
+                <p>Información sobre el hotel. </p>
+              </div>
+              <div><p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p></div>
             </div>
-            <div class="col-md-4">
-              <h2>Hotel de Barcelona</h2>
-              <p>Información sobre el hotel. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver más »</a></p>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Barcelona</h2>
+                <p>Información sobre el hotel. </p>
+              </div>
+              <div>
+                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+              </div>
             </div>
-            <div class="col-md-4">
-              <h2>Hotel de Francia</h2>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Francia</h2>
               <p>Información sobre el hotel. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver más »</a></p>
+              </div>
+              <div>
+                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+              </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de La Paz</h2>
+                <p>Información sobre el hotel. </p>
+              </div>
+              <div>
+                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+              </div>
+            </div>
+          </div>  
+          <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Buenos Aires</h2>
+                <p>Información sobre el hotel. </p>
+              </div>
+              <div><p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p></div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Barcelona</h2>
+                <p>Información sobre el hotel. </p>
+              </div>
+              <div>
+                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+              </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+                <h2>Hotel de Francia</h2>
+              <p>Información sobre el hotel. </p>
+              </div>
+              <div>
+                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+              </div>
             </div>
           </div>
   
@@ -96,8 +142,27 @@
   
       </main>
   
-      <footer class="container">
-        <p>© Company 2017-2018</p>
+      <footer>
+        <div class="row">
+          <div class="col-sm-4 d-flex flex-column">
+            <a href="http://www.facebook.com">Facebook</a>
+            <a href="http://www.twitter.com">Twitter</a>
+            <a href="http://www.instagram.com">Instagram</a>
+          </div>
+          <div class="col-sm-4">
+            <address>
+              <h3>Oficina Central</h3>
+              <p>Batallan 3100, 3 de febrero, Argentina</p>
+              <p>+54 1136699548</p>
+              <p>contacto@guiahoteles.com.ar</p>
+            </address>
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-end">
+            <a href="http://www.facebook.com">Nosotros</a>
+            <a href="http://www.twitter.com">Términos y condiciones</a>
+            <a href="http://www.instagram.com">Contacto</a>
+          </div>
+        </div>
       </footer>
 
     <!-- Optional JavaScript -->
