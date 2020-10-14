@@ -4,7 +4,7 @@
   "description": "Primer proyecto del curso",
   "main": "index.html",
   "scripts": {
-    "dev":"lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3"
   }
 }
