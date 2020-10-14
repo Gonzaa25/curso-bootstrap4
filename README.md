@@ -1,4 +1,6 @@
-## Diseñando páginas web con Bootstrap 4 - Curso en proceso!
+## Diseñando páginas web con Bootstrap 4
+
+# SEMANA 1 en curso!
 
 # Lista de módulos:
 
