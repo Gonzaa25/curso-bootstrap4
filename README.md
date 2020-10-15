@@ -2,6 +2,8 @@
 
 # SEMANA 2 en curso!
 
+![Progress](https://progress-bar.dev/30/)
+
 # Lista de módulos:
 
 - Presentación de Bootstrap 4.0
