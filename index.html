@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+
     <title>Guia de hoteles</title>
   </head>
   <body><!-- Main jumbotron for a primary marketing message or call to action -->
@@ -18,11 +20,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item active"><a class="nav-link" href="/index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="/about.html">Nosotros</a></li>
-              <li><a class="nav-link" href="/precios">Precios</a></li>
-              <li><a class="nav-link" href="/terminosycondiciones">Términos y condiciones</a></li>
-              <li><a class="nav-link" href="/contacto">Contacto</a></li>
+              <li><a class="nav-link" href="/price.html">Precios</a></li>
+            <li><a class="nav-link" href="/policy.html">Términos y condiciones</a></li>
+            <li><a class="nav-link" href="/contact.html">Contacto</a></li>
               </li>
             </ul>
           </div>
@@ -59,7 +61,9 @@
                 <h2>Hotel de Buenos Aires</h2>
                 <p>Información sobre el hotel. </p>
               </div>
-              <div><p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p></div>
+              <div><p><button class="btn btn-primary btn-reserva" href="#" role="button">
+                <span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
+              </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
               <div>
@@ -67,7 +71,8 @@
                 <p>Información sobre el hotel. </p>
               </div>
               <div>
-                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+                <p><button class="btn btn-primary btn-reserva" href="#" role="button">
+                  <span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
               </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -76,7 +81,7 @@
               <p>Información sobre el hotel. </p>
               </div>
               <div>
-                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+                <p><button class="btn btn-primary btn-reserva" href="#" role="button"><span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
               </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -85,7 +90,7 @@
                 <p>Información sobre el hotel. </p>
               </div>
               <div>
-                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+                <p><button class="btn btn-primary btn-reserva" href="#" role="button"><span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
               </div>
             </div>
           </div>  
@@ -95,7 +100,7 @@
                 <h2>Hotel de Buenos Aires</h2>
                 <p>Información sobre el hotel. </p>
               </div>
-              <div><p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p></div>
+              <div><p><button class="btn btn-primary btn-reserva" href="#" role="button"><span class="oi oi-plus reserva-icon"></span> Reservar</button></p></div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
               <div>
@@ -103,7 +108,7 @@
                 <p>Información sobre el hotel. </p>
               </div>
               <div>
-                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+                <p><button class="btn btn-primary btn-reserva" href="#" role="button"><span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
               </div>
             </div>
             <div class="card-hotel d-flex flex-column justify-content-between">
@@ -112,7 +117,7 @@
               <p>Información sobre el hotel. </p>
               </div>
               <div>
-                <p><a class="btn btn-primary btn-reserva" href="#" role="button">Ver más »</a></p>
+                <p><button class="btn btn-primary btn-reserva" href="#" role="button"><span class="oi oi-plus reserva-icon"></span> Reservar</button></p>
               </div>
             </div>
           </div>
@@ -127,9 +132,9 @@
           <div class="col-sm-4">
             <address>
               <h3>Oficina Central</h3>
-              <p>Batallan 3100, 3 de febrero, Argentina</p>
-              <p>+54 1136699548</p>
-              <p>contacto@guiahoteles.com.ar</p>
+              <p><span class="oi oi-home footer-adress-icon"></span>Batallan 3100, 3 de febrero, Argentina</p>
+              <p><span class="oi oi-phone footer-adress-icon"></span>+54 1136699548</p>
+              <p><span class="oi oi-inbox footer-adress-icon"></span>contacto@guiahoteles.com.ar</p>
             </address>
           </div>
           <div class="col-sm-4 d-flex flex-column align-items-end">
