@@ -10,35 +10,47 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Guia de hoteles</title>
   </head>
-  <body>
-    
-  
-      <main role="main">
-  
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-3">Hoteles</h1>
-            <p>Esto es un modelo de pagina web hecha con Bootstrap4.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver más »</a></p>
+  <body><!-- Main jumbotron for a primary marketing message or call to action -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class='navbar-brand' href='/'>Hoteles</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/about.html">Nosotros</a></li>
+              <li><a class="nav-link" href="/precios">Precios</a></li>
+              <li><a class="nav-link" href="/terminosycondiciones">Términos y condiciones</a></li>
+              <li><a class="nav-link" href="/contacto">Contacto</a></li>
+              </li>
+            </ul>
           </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Hoteles</h1>
         </div>
-       <div class="container">
-           <div class="d-flex">
-              <div class="col-sm-4">
-                <h2>¿Cómo funciona?</h2>
-                <p>Buscá los hoteles más recomendados por los usuarios.</p>
-              </div>
-              <div class="col-sm-4">
-                <h2>¿Dónde puedo reservar?</h2>
-                <p>Dentro de nuestra página vas a poder reservar en cuestión de segundos.</p>
-              </div>
-              <div class="col-sm-4">
-                <h2>¿Cómo pago?</h2>
-                <p>Aceptamos todos los medios de pago.</p>
-              </div>
-           </div>
-       </div>
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+            <div class="row">
+                <div class="col-sm-4">
+                  <h2>¿Cómo funciona?</h2>
+                  <p>Buscá los hoteles más recomendados por los usuarios.</p>
+                </div>
+                <div class="col-sm-4">
+                  <h2>¿Dónde puedo reservar?</h2>
+                  <p>Dentro de nuestra página vas a poder reservar en cuestión de segundos.</p>
+                </div>
+                <div class="col-sm-4">
+                  <h2>¿Cómo pago?</h2>
+                  <p>Aceptamos todos los medios de pago.</p>
+                </div>
+            </div>
+        </div>
         <div class="container">
           <!-- Example row of columns -->
           <div class="d-flex flex-wrap flex-row-reverse">
@@ -104,14 +116,8 @@
               </div>
             </div>
           </div>
-  
           <hr>
-  
-        </div> <!-- /container -->
-  
-      </main>
-  
-      <footer>
+        </div> <!-- /container --><footer>
         <div class="row">
           <div class="col-sm-4 d-flex flex-column">
             <a href="http://www.facebook.com">Facebook</a>
