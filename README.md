@@ -2,7 +2,7 @@
 
 # SEMANA 3 en curso!
 
-![Progress](https://progress-bar.dev/25/)
+![Progress](https://progress-bar.dev/50/)
 
 # Lista de módulos:
 
