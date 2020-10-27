@@ -115,14 +115,36 @@
               </div>
             </div>
             <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-              <div class="d-flex justify-content-center">
-                <div class="card" style="width: 10ren;">
-                  <div class="card-header" style="background-color: grey;">Tarjetas Aceptadas</div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Tarjeta Visa</li>
-                    <li class="list-group-item">Tarjeta Mastercard</li>
-                    <li class="list-group-item">Tarjeta American Express</li>
-                  </ul>
+              <div class="accordion" id="accordionTarjetas">
+                <div class="card">
+                  <div class="card-header" id="headerOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" aria-expanded="true" data-target="#collapseBasica" aria-controls="collapseBasica">Tarjeta Visa</button>
+                    </h5>
+                  </div>
+                  <div id="collapseBasica" class="collapse" aria-labelledby="headerOne" data-parent="#accordionTarjetas">
+                    <div class="card-body">3 cuotas sin interes.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headerTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" aria-expanded="true" data-target="#collapseMaster" aria-controls="collapseMaster">Tarjeta Mastercard</button>
+                    </h5>
+                  </div>
+                  <div id="collapseMaster" class="collapse" aria-labelledby="headerTwo" data-parent="#accordionTarjetas">
+                    <div class="card-body">3 cuotas sin interes.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headerThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" aria-expanded="true" data-target="#collapseAmerican" aria-controls="collapseAmerican">Tarjeta American Express</button>
+                    </h5>
+                  </div>
+                  <div id="collapseAmerican" class="collapse" aria-labelledby="headerThree" data-parent="#accordionTarjetas">
+                    <div class="card-body">3 cuotas sin interes.</div>
+                  </div>
                 </div>
               </div>
             </div>
