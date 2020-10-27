@@ -9,6 +9,8 @@
     background-color: yellow;
     margin-bottom: 0px;
     margin-top: 10px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .btn {
@@ -32,4 +34,8 @@
 
 .reserva-icon{
     color: rgb(211, 164, 164);
+}
+
+.tab-content{
+    padding-top: 15px;
 }
