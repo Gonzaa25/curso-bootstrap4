@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
     <title>Guia de hoteles</title>
@@ -236,6 +236,19 @@
         $('[data-toggle="tooltip"]').tooltip();
         $('[data-toggle="popover"]').popover();
         $(".carousel").carousel({interval:2000});
+        $("#contacto").on('show.bs.modal',function(e){
+          console.log('El modal contacto se esta mostrando');
+          $("#contactoBtn").removeClass('btn-outline-success');
+          $("#contactoBtn").addClass('btn-primary');
+          $("#contactoBtn").prop('disable',true);
+        });
+        $("#contacto").on('hide.bs.modal',function(e){
+          console.log('El modal contacto se oculta');
+        });
+        $("#contacto").on('hidden.bs.modal',function(e){
+          console.log('El modal contacto se ocultó');
+          $("#contactoBtn").prop('disable',false);
+        });
       });
     </script>
   </body>
