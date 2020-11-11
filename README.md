@@ -1,8 +1,8 @@
 ## Diseñando páginas web con Bootstrap 4
 
-# SEMANA 3 en curso!
+# SEMANA 4 en curso!
 
-![Progress](https://progress-bar.dev/50/)
+![Progress](https://progress-bar.dev/10/)
 
 # Lista de módulos:
 
